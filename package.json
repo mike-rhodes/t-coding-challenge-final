@@ -1,0 +1,37 @@
+{
+  "name": "tempus-training-app",
+  "version": "0.0.1",
+  "description": "Coding challenge for Tempus Health.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mike Rhodes",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "datatables.net": "^1.10.15",
+    "ejs": "^2.5.6",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "fs": "0.0.1-security",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sqlite3": "^3.1.8"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
